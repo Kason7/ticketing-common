@@ -8,3 +8,12 @@ First add and commit changes to git, then:
 npm version patch
 npm publish
 ```
+
+(Optional) update version installation in services using the library:
+
+1. Go into service root folder
+2. Run command:
+
+```
+npm update @kason7-ticketing/common
+```
