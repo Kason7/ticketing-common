@@ -2,7 +2,7 @@
 
 ## Update library
 
-First increase version number in package.json, then:
+First add and commit changes to git, then:
 
 ```
 npm version patch
