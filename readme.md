@@ -9,7 +9,7 @@ npm version patch
 npm publish
 ```
 
-(Optional) update version installation in services using the library:
+(Optional, while running skaffold) update version installation in services using the library:
 
 1. Go into service root folder
 2. Run command:
