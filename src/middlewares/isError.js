@@ -5,7 +5,6 @@ module.exports = (err, req, res, next) => {
     res.status(err.statusCode).send({ errors: err.serializeErrors() });
   } else {
     // CASE ERROR IS NOT HANDLED
-    console.error('Middleware error', err);
     res
       .status(400)
       .send({ errors: [{ message: `Something when wrong: ${err}` }] });
